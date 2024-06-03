@@ -1,3 +1,14 @@
+#errorSeat {
+	font-size: large;
+	font-weight: bolder;
+	display: none;
+	z-index: 30;
+}
+
+.error {
+	display: block !important;
+}
+
 label {
 	font-size: medium;
 	font-weight: bold;
@@ -5,6 +16,8 @@ label {
 }
 
 h3 {
+	/* color: rgba(128,32,32,0.6); */
+	/* color: rgba(128,32,96,0.6); */
 	color: #ff6969cf !important;
 }
 .mblist {
